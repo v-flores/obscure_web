@@ -412,34 +412,30 @@ p {
 }
 
 
-
-
 /* Section: Social Media */
 
-
-
-
-/* Section: Contact */
-#contact {
-  display: flex;
+#social {
+  text-align: center;
 }
 
-#contact .map, #contact .contact-form {
-  flex: 1;
+#social i {
+  padding:10px;
 }
 
-#contact .contact-form .form-group {
-  margin: 0.75rem;
+.fa-facebook {
+  color: #3b5998;
 }
 
-#contact .contact-form label {
-  display: block;
+.fa-twitter {
+  color: #55acee;
 }
 
-#contact .contact-form input,
-#contact .contact-form textarea {
-  width: 100%;
-  padding: 0.5rem;
+.fa-instagram {
+  color: #fd5949 ;
+}
+#social i:hover {
+  color: #ffffff;
+  cursor: pointer;
 }
 
-  }
+}
