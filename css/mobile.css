@@ -68,7 +68,28 @@
     position: relative;
     background-color: white;
   }
+  
+  #social  {
+    text-align: center;
+    padding: 10px;
+  }
 
+  .fa-facebook {
+    color: #3b5998;
+  }
+  
+  .fa-twitter {
+    color: #55acee;
+  }
+  
+  .fa-instagram {
+    color: #fd5949 ;
+  }
+  #social i:hover {
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
 }
 
 @media(max-height: 568px) {
@@ -84,4 +105,5 @@
   .lead {
     font-size: 1rem;
   }
-}
+
+  
